@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+    /* transform: skew(45deg); */
+    background-color: aquamarine;
+    transition: background-color 2s, transform 0.5s ease-in-out;
+
+}
+
+div:hover{
+    /* margin-top: 50px; */
+    /* background-color: blueviolet; */
+    /* transform:translate(500px); */
+    box-shadow: 14px 14px 20px black;
+    transform: scale(1.2);
+}
