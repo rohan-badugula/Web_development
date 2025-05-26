@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    height: 300px;
+    border: 2px solid black;
+    flex-wrap: wrap;   /* Single line */
+    align-items: center; 
+    /* align-content: center;   */
+
+  }
+  
+  .box {
+    width: 280px;
+    height: 80px;
+    background: lightblue;
+    margin: 5px;
+    text-align: center;
+    line-height: 80px;
+  }
+
+  
