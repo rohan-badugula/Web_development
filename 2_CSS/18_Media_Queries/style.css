@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    height: 300px;
+    border: 2px solid black;
+    background-color: greenyellow;
+  }
+
+  @media(width:400px){
+    .container{
+      background-color: pink;
+    }
+  }
+  
+ 
+
+  

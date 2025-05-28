@@ -1,0 +1,21 @@
+.loader{
+  width: 300px;
+  height: 300px;
+  margin: 25px auto;
+  background-color: azure;
+  border: 20px solid grey;
+  border-radius: 50%;
+  /* transform: rotate(45deg); */
+  border-top: 20px solid goldenrod;
+  animation: spin 1.5s linear 0s infinite;
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+ 
+  100%{
+    transform: rotate(360deg);
+  }
+}

@@ -16,6 +16,14 @@ div div{
 
 #green{
     background-color: green;
+    transition: 1s ease-in-out 0.2s;
+}
+
+#green:hover{
+    background-color: rgb(69, 81, 69);
+    width: 130px;
+    height: 130px;
+    transform: translate(50px);
 }
 
 #red{

@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    font-size: large;
+    color: azure;
+    margin: 100px auto;
+    animation: changefont;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    border-radius: 50%;
+    padding-top: 150px;
+}
+
+@keyframes changefont{
+    from{
+        font-size: 20px;
+        background-color: green;
+        margin: 100px 0px;
+    }
+    to{
+        font-size:50px;
+        background-color: red;
+        margin: 100px 0px;
+        transform: translate(120px,0px) rotate(360deg);
+        width: 1000px;
+        height: 1000px;
+    }
+}
+
+  
